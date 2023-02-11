@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(PARESEIMPARES LANGUAGES C)
+
+add_executable(PARESEIMPARES main.c)
+
+install(TARGETS PARESEIMPARES
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
